@@ -1,0 +1,32 @@
+.nav-container{
+    height: 82px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #d9d5d0;
+    background-color: #17191a;
+}
+
+.nav-left{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Bangers", cursive;
+    font-size: 40px;
+}
+
+.nav-logo{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.nav-title{
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: #d9d5d0;
+    margin-right: 20px;
+}

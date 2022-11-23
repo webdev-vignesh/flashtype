@@ -1,0 +1,52 @@
+.landing-container{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Bangers', cursive;
+    color: #e0cbe0;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+
+.landing-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    letter-spacing: 4px;
+}
+
+.landing-header{
+    font-size: 90px;
+}
+
+.typewriter-container{
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.landing-right{
+    padding: 20px;
+}
+
+.landing-image{
+    width: 40vw;
+}
+
+@media (max-width: 800px){
+    .landing-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing-image{
+        width: 80vw;
+    }
+
+    .landing-header{
+        text-align: center;
+    }
+
+    .typewriter-container{
+        text-align: center;
+    }
+
+}
